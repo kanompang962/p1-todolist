@@ -104,7 +104,7 @@ function App() {
                     sx={{
                       width: "100%",
                     }}
-                    className={edit ? "bg-yellow-gradient" : "bg-blue-gradient"}
+                    className={edit ? "bg-black-gradient" : "bg-blue-gradient"}
                     // color={edit ? "warning" : "success"}
                     variant="contained"
                     type="submit"

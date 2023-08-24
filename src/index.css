@@ -60,14 +60,11 @@ body {
   );
 }
 
-.bg-yellow-gradient {
+.bg-black-gradient {
   background: linear-gradient(
-    157.81deg,
-    #faf7de -43.27%,
-    #f5f1be -21.24%,
-    #f0ea9d 12.19%,
-    #ebe07d 29.82%,
-    #e6d85c 51.94%,
-    #cfb833 90.29%
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
   );
 }
