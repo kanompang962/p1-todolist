@@ -1,5 +1,7 @@
 import { Button } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
+import EditIcon from "@mui/icons-material/Edit";
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import React from "react";
 
 const ListTable = ({ listContent, editContent, removeContent }) => {
@@ -14,21 +16,21 @@ const ListTable = ({ listContent, editContent, removeContent }) => {
       width: 160,
       renderCell: (params) => {
         return (
-          <div className="flex flex-row px-4">
+          <div className="flex flex-row px-4 gap-1">
             <Button
               onClick={() => editContent(params.row.id)}
               variant="contained"
               // color="warning"
-              className="bg-yellow-gradient"
+              className="bg-black-gradient"
             >
-              Edit
+              <EditIcon />
             </Button>
             <Button
               onClick={() => removeContent(params.row.id)}
               variant="outlined"
               color="error"
             >
-              Del
+              <DeleteOutlineIcon />
             </Button>
           </div>
         );
